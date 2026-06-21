@@ -1,0 +1,20 @@
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+
+# Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Security keys & certificates
+*.pem
+*.key

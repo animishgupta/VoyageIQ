@@ -1,0 +1,10 @@
+from typing import Optional
+from pydantic import BaseModel
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+class TokenData(BaseModel):
+    # 'sub' subject (usually user email or ID) encoded in JWT
+    sub: Optional[str] = None
